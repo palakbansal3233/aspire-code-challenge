@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Loan />
+    <Layout />
   </div>
 </template>
 
 <script>
-import Loan from '@/components/Loan'
+import Layout from '@/components/Layout'
 
 export default {
   name: 'App',
   components: {
-    Loan
+    Layout
   }
 }
 </script>
